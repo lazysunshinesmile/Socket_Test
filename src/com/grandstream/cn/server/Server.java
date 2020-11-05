@@ -19,6 +19,7 @@ public class Server {
 //            String str =scan.nextLine();//读取控制台的录入
             String str = bufferedReader.readLine();
             System.out.println("客户说："+str);
+            //必须加回车或者bufferedWriter.newLine();
             bufferedWriter.write("前世的五百次回眸·\n");
 //            bufferedWriter.newLine();
             bufferedWriter.flush();
